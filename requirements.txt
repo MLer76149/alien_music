@@ -5,5 +5,4 @@ pandas==1.4.2
 scikit_learn==1.0.2
 spotipy==2.19.0
 streamlit==1.7.0
-~andas==1.0.5
-~umpy==1.18.5
+
