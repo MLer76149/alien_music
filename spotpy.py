@@ -7,10 +7,8 @@ from sklearn.metrics import silhouette_score as __si
 import pickle as __pi
 from config import *
 import spotipy as __sp
-import json
 from spotipy.oauth2 import SpotifyClientCredentials
-import pprint
-from IPython.display import clear_output
+
 
 sp = __sp.Spotify(auth_manager=SpotifyClientCredentials(client_id= Client_ID,
                                                            client_secret= Client_SecretID))
