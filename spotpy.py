@@ -10,6 +10,7 @@ import spotipy as __sp
 from spotipy.oauth2 import SpotifyClientCredentials
 
 
+
 sp = __sp.Spotify(auth_manager=SpotifyClientCredentials(client_id= Client_ID,
                                                            client_secret= Client_SecretID))
 
@@ -199,7 +200,6 @@ def __get_id(song, artist):
     test = sp.search(q="track: " + song + " artist: " + artist, limit=1)
     
     return test["tracks"]["items"][0]["id"]
-
 
     
 
